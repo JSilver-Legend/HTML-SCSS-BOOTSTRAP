@@ -1,0 +1,91 @@
+.footer{
+  display: block;
+  max-width: $Container-width;
+  .top-line{
+    display: flex;
+    .logo{
+      width: 6%;
+      text-align: center;
+    }
+  }
+  .middle-line{
+    .nav-link{
+      .link{
+        text-transform:uppercase;
+      }
+    }
+    padding-top: 63px;
+    @media screen and (min-width: 900px) {
+      display: flex;
+      justify-content: space-between;
+      .nav-link{
+        justify-content: space-between;
+        display: flex;
+        gap:58px;
+      }
+    }
+    @media screen and (max-width: 899px) {
+      display: block;
+      .logo{
+        padding-top: 50px;
+        text-align: center;
+      }
+      .nav-link{
+        justify-content: center;
+        display: flex;
+        gap:58px;
+      }
+    }
+    @media screen and (max-width: $Mobile-down) {
+      .logo{
+        padding-top: 0px;
+        text-align: center;
+      }
+      .nav-link{
+        display: block;
+        text-align: center;
+        .link{
+          padding-top: 20px;
+        }
+      }
+    }
+    .nav-link{
+      margin-top: 20px;
+      font-family: $Mont-bold;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  }
+  .bottom-line{
+    font-family: $Mont-bold;
+    font-weight: 500;
+    font-size: 13px;
+    color: #313131;
+    .text-flap{
+      list-style-type: none;
+      display: flex;
+      gap: 10px;
+      text-align: center;
+    }
+    @media screen and (min-width: 616px) {
+      padding-top: 140px;
+      display: flex;
+      justify-content: space-between;
+      .text-flap{
+        justify-content: space-between;
+      }
+    }
+    @media screen and (max-width: 615px) {
+      padding-top: 40px;
+      text-align: center;
+      display: block;
+      .text-flap{
+        padding-top: 20px;
+        font-size: 12px;
+        justify-content: center;
+        padding-right: 30px;
+      }
+    }
+  }
+}

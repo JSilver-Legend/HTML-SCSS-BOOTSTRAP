@@ -1,0 +1,37 @@
+.black-theme{
+  a{
+    color: white !important;
+    text-decoration: none;
+  }
+  a:link {
+  color: black;
+  }
+  
+  a:visited {
+  color: black;
+  }
+  
+  a:hover {
+  color: black;
+  }
+  
+  a:active {
+  color: black;
+  }
+  u{
+    color: white;
+  }
+  background-color: #1A1A1A;
+  color: white;
+  .footer{
+    .bottom-line{
+      color: white !important;
+    }
+  }
+  
+  .lastnews{
+    .lastnews-text{
+      color: white !important;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-extrabold";
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-light";
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat-black";
+  src: url("../fonts/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+$Mont: "Montserrat";
+$Mont-light: "Montserrat-light";
+$Mont-bold: "Montserrat-bold";
+$Mont-extrabold: "Montserrat-extrabold";
+$Mont-black: "Montserrat-black";
+$Roboto: "Roboto-bold";
+$Open-Sans: "Open Sans";
+
+$Mobile-up: 768px;
+$Mobile-down: 767px;
+$Medium-up: 1241px;
+$Medium-down: 1240px;
+$Container-width: 1550px;
+
+@import './modules/header';
+@import './modules/header-black';
+@import './modules/hero';
+@import './modules/event';
+@import './modules/event3';
+@import './modules/event4';
+@import './modules/hero-black';
+@import './modules/aboutus';
+@import './modules/category';
+@import './modules/highlights';
+@import './modules/itemlist';
+@import './modules/lastnews';
+@import './modules/content-up';
+@import './modules/content-middle';
+@import './modules/content-down';
+@import './modules/speakers';
+@import './modules/entertainment';
+@import './modules/sponsors';
+@import './modules/footer';
+
+@import './modules/white-theme';
+@import './modules/black-theme';
+
+
+
+

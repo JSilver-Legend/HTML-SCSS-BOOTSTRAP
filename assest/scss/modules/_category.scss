@@ -1,0 +1,35 @@
+.category{
+  margin-top: 70px;
+  max-width: $Container-width;
+  .category-card{
+    padding-left: 10px;
+    padding-right: 10px;
+    .category-text{
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  .imageFlap{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .textFlap{
+    padding-left: 20px
+  }
+  .carousel-cell {
+    width:25%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .flickity-page-dots {
+    display: none;
+  }
+  .flickity-prev-next-button {
+    display: none;
+  }
+  @media screen and (max-width: 750px) {
+    div.carousel-cell {
+      width:100%;
+    }
+  }
+}

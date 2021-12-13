@@ -1,0 +1,112 @@
+.entertainment{
+  @media screen and (max-width: 1535px) {
+    .title{
+      .main-title{
+        font-size: 100px;
+      }
+    }
+  }
+  @media screen and (min-width: 1536px) {
+    .title{
+      .main-title{
+        font-size: 160px;
+      }
+    }
+  }
+  @media screen and (min-width: $Medium-up) {
+    padding-top: 200px;
+    .title{
+      .up-title{
+        padding-left: 194px;
+        font-size: 50px;
+      }
+      .down-title{
+        padding-left: 194px;
+        font-size: 50px;
+      }
+    }
+    .comment{
+      margin-left: 194px;
+    }
+    .image-flap{
+      padding-top: 40px;
+      margin-left: 194px;
+      .explore-button{
+        padding-right: 60px;
+        .button-label{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $Medium-down) {
+    padding-top: 60px;
+    .title{
+      .up-title{
+        padding-left: 20px;
+        font-size: 32px;
+      }
+      .main-title{
+        padding-top: 20px;
+        font-size: 40px;
+      }
+      .down-title{
+        padding-left: 20px;
+        font-size: 32px;
+      }
+    }
+    .comment{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .image-flap{
+      padding-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      .explore-button{
+        padding-right: 20px;
+        .button-label{
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  width: 100%;
+  .title{
+    color: white;
+    .up-title{
+      text-align: left;
+      font-family: $Mont-light;
+    }
+    .main-title{
+      text-align: center;
+      font-family: $Mont-black;
+      font-weight: 900;
+    }
+    .down-title{
+      padding-top: 45px;
+      text-align: left;
+      font-family: $Mont-light;
+      text-align: left;
+    }
+  }
+  .comment{
+    letter-spacing: 1%;
+    line-height: 24px;
+    font-weight: 400;
+    max-width: 1145px;
+    font-family: $Open-Sans;
+    font-size: 15px;
+    color: white;
+  }
+  .image-flap{
+    max-width: 1145px;
+    .explore-button{
+      padding-top: 20px;
+      text-align: right;
+      .button-label{
+        color: white;
+      }
+    }
+  }
+}

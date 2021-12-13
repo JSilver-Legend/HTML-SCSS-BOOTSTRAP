@@ -1,0 +1,60 @@
+.hero-black{
+  @media screen and (min-width: 1551px) {
+    padding-top: 120px;
+    .hero-title{
+      padding-right: 200px;
+    }
+  }
+
+  @media screen and (max-width: $Container-width) {
+    padding-top: 120px;
+    .hero-title{
+      padding-left: 10px;
+    }
+  }
+  width: 100%;
+  .hero-title{
+    color: white;
+    max-width: $Container-width;
+    display: flex;
+    justify-content: space-between;
+    .text{
+      @media screen and (min-width: 1551px) {
+        font-size: 50px;
+        .title{
+          padding-top: 180px;
+        }
+      }
+      @media screen and (max-width: $Container-width) {
+        font-size: 32px;
+        .title{
+          padding-top: 180px;
+        }
+      }
+      @media screen and (max-width: 1119px) {
+        font-size: 32px;
+        .title{
+          padding-top: 0px;
+        }
+      }
+      .title{
+        font-family: $Mont;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 116.3%;
+      }
+      .title-bold{
+        font-family: $Mont-bold;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 116.3%;
+      }
+    }
+  }
+  .hero-image{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,83 @@
+.aboutus{
+  max-width: $Container-width;
+  position: relative;
+  margin: 100px 0px;
+  @media screen and (max-width: $Medium-down) {
+    .title{
+      font-size: 25px;
+    }
+    .title-bold{
+      font-size: 25px;
+    }
+  }
+  .top{
+    .image-flap{
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .title{
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 116.3%; 
+    }
+    .title-bold{
+      font-family: $Mont-bold;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 116.3%;;
+    }
+    @media screen and (max-width: 1290px) {
+      .title{
+        font-size: 32px;
+      }
+      .title-bold{
+        font-size: 32px;
+      }
+    }
+    @media screen and (min-width: 1291px) {
+      .title{
+        font-size: 42px;
+      }
+      .title-bold{
+        font-size: 45px;
+      }
+    }
+    .text{
+      font-family: $Open-Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+    }
+  }
+  .bottom{
+    z-index: 0;
+    @media screen and (min-width: $Medium-up) {
+      margin-top: -50px;
+    }
+    @media screen and (max-width: $Medium-down) {
+      margin-top: -45px;
+    }
+    @media screen and (max-width: 1199px) {
+      margin-top: 50px;
+    }
+    .title{
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 700;
+      font-size:20px;
+      line-height: 160%; 
+    }
+    .text{
+      font-family: $Open-Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+    }
+  }
+}

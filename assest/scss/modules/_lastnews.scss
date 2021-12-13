@@ -1,0 +1,49 @@
+.lastnews{
+  max-width: $Container-width;
+  .lastnews-title{
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 116.3%;
+  }
+  .lastnews-title-bold{
+    font-family: $Mont-bold;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 116.3%;
+  }
+  .lastnews-card{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #828282;
+    padding-left: 10px;
+    padding-right: 10px;
+    .lastnews-text{
+      padding-top: 30px;
+      padding-bottom: 100px;
+      font-family: $Mont;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      color: #333333;
+    }
+  }
+  .carousel-cell {
+    width:25%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .flickity-page-dots {
+    display: none;
+  }
+  .flickity-prev-next-button {
+    display: none;
+  }
+  @media screen and (max-width: 750px) {
+    div.carousel-cell {
+      width:100%;
+    }
+  }
+}

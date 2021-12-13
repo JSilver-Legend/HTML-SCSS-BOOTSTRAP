@@ -1,0 +1,109 @@
+.speakers{
+  max-width: $Container-width;
+
+
+  @media screen and (min-width: $Medium-up) {
+    padding-left: 50px;
+  }
+  @media screen and (max-width: $Medium-down) {
+    padding-left: 5px;
+  }
+  .content{
+    max-width: 1144px;
+    .title{
+      color: white;
+      font-family: $Mont-bold;
+      font-weight: 300;
+      padding-left: 10px;
+      padding-right: 10px;
+      @media screen and (min-width: $Mobile-down) {
+        font-size: 50px;
+      }
+      @media screen and (max-width: $Mobile-down) {
+        font-size: 30px;
+      } 
+    }
+    .body{
+      padding-top: 70px;
+      padding-left: 25px;
+      padding-right: 0px;
+      width: 100%;
+      .card{
+        background: none;
+        border: none;
+        position: relative;
+        overflow: hidden;
+        @media screen and (min-width: $Mobile-down) {
+          font-size: 30px;
+        }
+        &:hover{
+          cursor: pointer;
+          .show{
+            filter: blur(50px);
+            -webkit-filter: blur(50px);
+          }
+          .hover{
+            display: block !important;
+          }
+        }
+        .show{
+          .card-title{
+            padding-top: 30px;
+            color: white;
+            font-family: $Mont;
+            font-weight: 600;
+            @media screen and (min-width: $Mobile-down) {
+              font-size: 18px;
+            }
+            @media screen and (max-width: $Mobile-down) {
+              font-size: 16px;
+            }  
+          }
+          .comment{
+            padding-top: 10px;
+            padding-bottom: 25px;
+            font-family: $Mont;
+            font-weight: 600;
+            font-size: 14px;
+            color: #5B5B5B;
+          }
+        }
+        .hover{
+          position: absolute;
+          display: none !important;
+          font-family: $Mont-bold;
+          width: 100%;
+          padding-left: 15px;
+          padding-right: 15px;
+          .title{
+            padding-top: 50px;
+            color: white;
+            font-weight: 600;
+            font-size: 18px !important;
+          }
+          .sub-title{
+            padding-top: 20px;
+            padding-left: 10px;
+            font-weight: 600;
+            font-size: 12px;
+            color: #CACACA;
+          }
+          .text{
+            padding-top: 40px;
+            padding-right: 15px;
+            font-family: $Open-Sans;
+            font-weight: 400;
+            font-size: 15px;
+          }
+          .buttons{
+            padding-top: 110px;
+            display: flex;
+            .twitter{
+              padding-right: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

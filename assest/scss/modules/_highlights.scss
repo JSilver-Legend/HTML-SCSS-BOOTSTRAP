@@ -1,0 +1,45 @@
+.highlights{
+  max-width: $Container-width;
+  @media screen and (min-width: $Mobile-up) {
+    padding-bottom: 100px;
+    padding-top: 163px;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: $Mobile-down) {
+    padding-bottom: 0px;
+    display: block;
+    padding-top: 0px;
+    .highlight{
+      padding-top: 50px;
+    }
+  }
+  .highlight{
+    @media screen and (min-width: 1360px) {
+      display: flex;
+      justify-content: space-between;
+      .text{
+        padding-left: 100px;
+      }
+    }
+    @media screen and (max-width: 1359px) {
+      display: block;
+      text-align: center;
+      .text{
+        padding-top: 20px;
+      }
+    }
+    .text{
+      font-family: $Mont-bold;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .text-link{
+      font-family: $Roboto;
+      font-weight: 400;
+      font-size: 14px;
+      text-decoration: underline;
+    }
+  }
+}

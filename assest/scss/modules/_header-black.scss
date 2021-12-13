@@ -1,0 +1,62 @@
+.header-black{
+  position: fixed;
+  background-color: #1A1A1A;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  @media screen and (min-width: $Medium-up) {
+    height: 125px;
+  }
+  @media screen and (max-width: $Medium-down) { 
+    height: 90px;
+  }
+  .header-bar{
+    max-width: $Container-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:27px;
+    .logo{
+      @media screen and (min-width: $Mobile-up) {
+        width: 300px;
+      }
+      @media screen and (max-width: $Mobile-down) {
+        width: 180px
+      }
+    }
+    .nav-bar{
+      display: flex;
+      gap: 67px;
+      font-family: $Mont-bold;
+      font-style: normal;
+      .back{
+        display: flex;
+        padding-top: 15px;
+        .text{
+          color: white;
+          padding-top: 5px;
+          padding-left: 10px;
+          font-family: $Mont-bold;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+      .nav-button{
+        color: black;
+        background: #ffffff;
+        border-radius: 60px;
+        cursor: pointer;
+        @media screen and (min-width: $Mobile-up) {
+          font-size: 18px;
+          padding: 15px 40px;
+        }
+        @media screen and (max-width: $Mobile-down) { 
+          font-size: 11px;
+          padding: 8px 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.content-middle{
+  max-width: $Container-width;
+  padding-left: 20px;
+  .title{
+    font-family: $Open-Sans;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    letter-spacing: -4%;
+  }
+  .comment{
+    padding-top: 30px;
+    max-width: $Container-width;
+    padding-right: 20px;
+    font-family: $Open-Sans;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 1%;
+    .text{
+      max-width: 1145px;
+    }
+  }
+  .content-list{
+    padding-top: 30px;
+    font-family: $Open-Sans;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 50px;
+    @media screen and (min-width: $Mobile-up) {
+      padding-left: 30px;
+    }
+    @media screen and (max-width: $Mobile-down) { 
+      padding-left: 0px;
+    }
+  }
+}

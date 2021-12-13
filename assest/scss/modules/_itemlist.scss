@@ -1,0 +1,72 @@
+.itemlist{
+  max-width: $Container-width;
+  margin: 100px 0px;
+  padding-bottom: 150px;
+  .itemlist-text{
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 116.3%;
+  }
+  .itemlist-text-bold{
+    font-family: $Mont-bold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 116.3%;
+  }
+  .itemlist-content{
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 116.3%;
+  }
+  .bottom-arrow{
+    text-align: right;
+    right: 80px;
+    .logo{
+      padding-left: 10px;
+      z-index: 100;
+    }
+    .button-label{
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    
+  }
+  .itemlist-arrow{
+    width: 45px;
+    height: 30px;
+  }
+  @media screen and (max-width: $Medium-down) {
+    .itemlist-text{
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 32px;
+      line-height: 116.3%;
+    }
+    .itemlist-text-bold{
+      font-family: $Mont-bold;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 116.3%;
+    }
+    .itemlist-content{
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 116.3%;
+    }
+    .itemlist-arrow{
+      width: 21px;
+      height: 14px;
+    }
+  }
+}

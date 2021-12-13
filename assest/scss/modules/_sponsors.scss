@@ -1,0 +1,35 @@
+.sponsors{
+  max-width: $Container-width;
+  color: white;
+  @media screen and (min-width: $Medium-up) {
+    padding-top: 200px;
+    padding-left: 10px;
+  }
+  @media screen and (max-width: $Medium-down) {
+    padding-top: 100px;
+    padding-left: 10px;
+    .body{
+      padding-left: 20px;
+    }
+  }
+  .title{
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 116.3%;
+  }
+  .title-bold{
+    font-family: $Mont-bold;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 116.3%;
+  }
+  .body{
+    padding-top: 80px;
+    .image{
+      margin-top: 20px;
+    }
+  }
+}

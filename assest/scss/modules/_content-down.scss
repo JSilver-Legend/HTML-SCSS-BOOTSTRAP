@@ -1,0 +1,56 @@
+.content-down{
+  max-width: $Container-width;
+  padding-left: 20px;
+  padding-top: 30px;
+  .content-body{
+    max-width: 1144px;
+    .title{
+      font-family: $Open-Sans;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 52px;
+      letter-spacing: -4%;
+    }
+    .comment-text{
+      padding-top: 30px;
+      max-width: $Container-width;
+      padding-right: 10px;
+      font-family: $Open-Sans;
+      font-size: 15px;
+      line-height: 24px;
+      text-align: left;
+      vertical-align: top;
+      letter-spacing: 1%;
+      .text{
+        max-width: 1145px;
+      }
+    }
+    .image-flap{
+      max-width: $Container-width;
+      padding-top: 70px;
+      text-align: left;
+      .title-image{
+        justify-content: center;
+        overflow: hidden;
+        margin-right: 20px;
+      }
+      .bottom-arrow{
+        padding-top: 20px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: right;
+        .logo{
+          padding-left: 10px;
+          z-index: 100;
+        }
+        .button-label{
+          padding-left: 30px;
+          font-family: $Mont-bold;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

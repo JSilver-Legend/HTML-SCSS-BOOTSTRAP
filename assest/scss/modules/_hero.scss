@@ -1,0 +1,70 @@
+.hero{
+  background-image: url("../img/hero_background.png");
+  display: block;
+  @media screen and (min-width: $Medium-up) {
+    padding-top: 250px;
+  }
+  @media screen and (max-width: $Medium-down) { 
+    padding-top: 120px;
+  }
+  .title{
+    @media screen and (min-width: $Medium-up) {
+      .support-title{
+        font-size: 60px;
+      }
+      .main-title{
+        .outline-text{
+          font-size: 130px;
+        }
+        .title-text{
+          font-size: 130px;
+        }
+        display: flex;
+        margin-top: -20px;
+      }
+    }
+
+    @media screen and (max-width: 1570px) {
+      .main-title{
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: $Medium-down) {
+      .support-title{
+        font-size: 25px;
+      }
+      .main-title{
+        margin-top: -10px;
+        .outline-text{
+          font-size: 50px;
+        }
+        .title-text{
+          font-size: 50px;
+          margin-top: -20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    padding-left: 20px;
+    display: block;
+    font-family: $Mont-black;
+    font-style: normal;
+    font-weight: 800;
+    max-width: $Container-width;
+    .main-title{
+     .outline-text{
+      color: white;
+      text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+     }
+    }
+  }
+  .image-flap{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+}

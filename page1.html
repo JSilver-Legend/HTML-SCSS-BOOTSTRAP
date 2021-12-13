@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <title>Page 1</title>
+  <link rel="stylesheet" type="text/css" href="./assest/scss/main.css" />
+</head>
+
+<body class="white-theme">
+  <header id="header" class="header mx-auto">
+    <div class="header-bar mx-auto">
+      <img src="./assest/svg/logo.svg" class="logo" />
+      <div class="nav-bar d-none d-xl-block">
+        <nav>
+          <ul class="nav nav-link">
+            <li class="nav-item link">
+              <a href="">Home</a>
+            </li>
+            <li class="nav-item link">
+              <a href="">About</a>
+            </li>
+            <li class="nav-item link">
+              <a href="">Events</a>
+            </li>
+            <li class="nav-item link">
+              <a href="">Membership</a>
+            </li>
+            <li class="nav-item link">
+              <a href="">Contact</a>
+            </li>
+            <li class="nav-item nav-button">
+              <a href="" class="text-white">Buy Tickets .</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-drop d-block d-xl-none">
+        <div class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="./assest/svg/drop-bar.svg" width="35" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a href="" class="dropdown-item link">Home</a>
+            <a href="" class="dropdown-item link">About</a>
+            <a href="" class="dropdown-item link">Events</a>
+            <a href="" class="dropdown-item link">Membership</a>
+            <a href="" class="dropdown-item link">Contact</a>
+            <div class="dropdown-divider"></div>
+            <a href="" class="dropdown-item">Buy Tickets .</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="hero">
+    <div class="hero">
+      <div class="title mx-auto">
+        <span class="support-title">Supporting the UK</span>
+        <div class="main-title">
+          <h1 class="outline-text">#umbraco</h1>
+          <h1 class="title-text">Community</h1>
+        </div>
+      </div>
+      <div class="image-flap">
+        <img src="./assest/img/hero.png" />
+      </div>
+    </div>
+  </section>
+  <section id="category">
+    <div class="category mx-auto">
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell category-card">
+          <a href="">
+            <div class="d-flex align-items-bottom my-3">
+              <img src="assest/svg/category_doubleline_icon.svg" />
+              <p class="my-0 category-text">about us</p>
+            </div>
+            <img src="./assest/img/title_image1.png" class="w-100 h-auto my-4" />
+          </a>
+        </div>
+        <div class="carousel-cell category-card">
+          <a href="">
+            <div class="d-flex align-items-bottom my-3">
+              <img src="assest/svg/category_doubleline_icon.svg" />
+              <p class="my-0 category-text">see events</p>
+            </div>
+            <img src="./assest/img/title_image2.png" class="w-100 h-auto my-4" />
+          </a>
+        </div>
+        <div class="carousel-cell category-card">
+          <a href="">
+            <div class="d-flex align-items-bottom my-3">
+              <img src="assest/svg/category_doubleline_icon.svg" />
+              <p class="my-0 category-text">membership</p>
+            </div>
+            <img src="./assest/img/title_image3.png" class="w-100 h-auto my-4" />
+          </a>
+        </div>
+        <div class="carousel-cell category-card">
+          <a href="">
+            <div class="d-flex align-items-bottom my-3">
+              <img src="assest/svg/category_doubleline_icon.svg" />
+              <p class="my-0 category-text">benefits</p>
+            </div>
+            <img src="./assest/img/title_image4.png" class="w-100 h-auto my-4" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="aboutus">
+    <div class="aboutus mx-auto">
+      <div class="top row col-xl-12 px-0 mx-0 d-flex">
+        <div class="col-xl-8 px-xl-4 order-xl-1 order-2">
+          <div class="image-flap">
+            <img src="./assest/img/title_image5.png" />
+          </div>
+        </div>
+        <div class="col-xl-4 px-xl-4 order-xl-2 order-1">
+          <div class="d-flex w-100 h-100 align-items-center px-2">
+            <div>
+              <h3 class="title">The UK Umbraco community is the <span class="title-bold">biggest
+                  worldwide</span></h3>
+              <p class="text my-3">With 13x independent meetup groups, 2x Umbraco conferences, 27 Umbraco
+                MVPs,
+                3.5x
+                more certified
+                developers than the biggest markets, and more partners than anywhere else worldwide. Given the unique
+                nature of the Umbraco UK community it probably wouldn’t be realistic to replicate an identical model
+                to
+                DUUG or BUUG, but perhaps a model closer to that of the .NET Foundation and the Cloud Native
+                Foundation
+                – who also support meetups and conferences</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom row col-xl-12 px-0 mx-0">
+        <div class="col-xl-7 px-xl-4">
+          <div class="d-flex align-items-center w-100 h-100">
+            <div>
+              <h3 class="title"><b>Lorem ipsum dolor sit</b></h3>
+              <p class="text my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                massa<br /> augue at porttitor et, nunc orci netus sit. Rhoncus amet et morbi tincidunt bibendum in eu
+                vitae<br /> phasellus. Sed viverra ultrices lobortis tempor ut auctor neque proin. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 px-xl-4">
+          <div class="image-flap">
+            <img src="./assest/img/title_image6.png" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="itemlist">
+    <div class="itemlist mx-auto px-3">
+      <h3 class="itemlist-text">Discover an <span class="itemlist-text-bold">amazing lineup</span> of events
+      </h3>
+      <ul class="list-group list-group-flush my-5">
+        <li class="list-group-item py-4">
+          <a href="">
+            <div class="d-flex justify-content-between">
+              <h3 class="itemlist-content my-0">The tools of our trade - Lifehacker // Umbraco edition</h3>
+              <img src="assest/svg/arrow.svg" class="itemlist-arrow" />
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item py-4">
+          <a href="">
+            <div class="d-flex justify-content-between">
+              <h3 class="itemlist-content my-0">Using Umbraco as a Digital Marketing Platform</h3>
+              <img src="assest/svg/arrow.svg" class="itemlist-arrow" />
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item py-4">
+          <a href="">
+            <div class="d-flex justify-content-between">
+              <h3 class="itemlist-content my-0">Umbraco for airlines</h3>
+              <img src="assest/svg/arrow.svg" class="itemlist-arrow" />
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item py-4">
+          <a href="">
+            <div class="d-flex justify-content-between">
+              <h3 class="itemlist-content my-0">Globally resilient Umbraco websites</h3>
+              <img src="assest/svg/arrow.svg" class="itemlist-arrow" />
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item py-4">
+          <a href="">
+            <div class="d-flex justify-content-between">
+              <h3 class="itemlist-content my-0">Adventures with Alexa</h3>
+              <img src="assest/svg/arrow.svg" class="itemlist-arrow" />
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item py-4 border-bottom">
+          <a href="">
+            <div class="d-flex justify-content-between">
+              <h3 class="itemlist-content my-0">Ucommerce for Umbraco 8</h3>
+              <img src="assest/svg/arrow.svg" class="itemlist-arrow" />
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="bottom-arrow">
+        <a href="">
+          <div class="logo">
+            <img src="./assest/svg/arrow-border.svg" />
+          </div>
+          <div class="button-label">
+            EXPLORE ALL
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="events">
+    <div class="event">
+      <div class="event-top">
+        <div class="event-header">
+          <h1 class="title-text">Umbraco</h1>
+          <div class="title-logo-big">
+            <img src="./assest/svg/event-logo.svg" alt="Event Logo" width="263" height="242">
+          </div>
+          <div class="title-logo-small">
+            <img src="./assest/svg/event-logo.svg" alt="Event Logo" width="102" height="94">
+          </div>
+        </div>
+        <div class="body">
+          <div class="title-letter">
+            <img src="assest/svg/events-letter.svg" alt="Event Together" width="100%">
+          </div>
+          <div class="d-flex justify-content-end">
+            26th November 2021
+          </div>
+        </div>
+      </div>
+      <div class="event-down">
+        <div class="line-up">
+          Featured Event
+        </div>
+        <div class="line-middle">
+          Umbraco Together 2021
+        </div>
+        <div class="line-down">
+          <div class="comment">
+            The world's biggest community organised Umbraco event is returning to London for the 11th edition, and
+            this year<br /> we're going bigger than ever before!
+            <u>See more information</u>
+          </div>
+          <div class="explore-button">
+            <a href="">
+              <img src="./assest/svg/arrow-border-white.svg" width="90" height="90" />
+              <div class="button-label">
+                SEE MORE
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="lastnews">
+    <div class="lastnews mx-auto">
+      <p class="lastnews-title my-5 px-3">Latest <span class="lastnews-title-bold">news</span></p>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell lastnews-card">
+          <a href="">
+            <img src="assest/img/news_image.png" class="w-100 h-auto" />
+            <p class="lastnews-text my-4">A Day in the Life — How Lucy<br /> lives and breathes art</p>
+          </a>
+        </div>
+        <div class="carousel-cell lastnews-card">
+          <a href="">
+            <img src="assest/img/news_image.png" class="w-100 h-auto" />
+            <p class="lastnews-text my-4">A Day in the Life — How Lucy<br /> lives and breathes art</p>
+          </a>
+        </div>
+        <div class="carousel-cell lastnews-card">
+          <a href="">
+            <img src="assest/img/news_image.png" class="w-100 h-auto" />
+            <p class="lastnews-text my-4">A Day in the Life — How Lucy<br /> lives and breathes art</p>
+          </a>
+        </div>
+        <div class="carousel-cell lastnews-card">
+          <a href="">
+            <img src="assest/img/news_image.png" class="w-100 h-auto" />
+            <p class="lastnews-text my-4">A Day in the Life — How Lucy<br /> lives and breathes art</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="highlights">
+    <div class="highlights mx-auto">
+      <div class="highlight">
+        <img src="./assest/svg/highlights-icon1.svg" width="60" height="59" />
+        <div class="text">
+          <div>
+            <p>Lorem ipsum dolor sit amet<br /> consectetur adipiscing elit</p>
+          </div>
+          <div class="text-link">
+            <a href="">
+              View career opportunities
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="./assest/svg/logo-line.svg" class="d-xl-block d-none" width="60" height="60" />
+      <div class="highlight">
+        <img src="./assest/svg/highlights-icon2.svg" width="60" height="59" />
+        <div class="text">
+          <div>
+            <p>Lorem ipsum dolor sit amet<br /> consectetur adipiscing elit</p>
+          </div>
+          <div class="text-link">
+            <a href="">
+              View career opportunities
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="./assest/svg/logo-line.svg" class="d-xl-block d-none" width="60" height="60" />
+      <div class="highlight">
+        <img src="./assest/svg/highlights-icon3.svg" width="60" height="59" />
+        <div class="text">
+          <div class="text-title">
+            <p>Lorem ipsum dolor sit amet<br /> consectetur adipiscing elit</p>
+          </div>
+          <div class="text-link">
+            <a href="">
+              View career opportunities
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="footer mx-auto py-5">
+      <div class="top-line">
+        <hr color="#000000" width="47%">
+        <div class="logo">
+          <img src="./assest/svg/graphic-logo.svg" width="30" height="30" />
+        </div>
+        <hr color="#B2B2B2" width="47%">
+      </div>
+      <div class="middle-line">
+        <div class="logo">
+          <img src="./assest/svg/logo.svg" />
+        </div>
+        <div class="nav-link">
+          <div class="link">
+            <a href="">Home</a>
+          </div>
+          <div class="link">
+            <a href="">About</a>
+          </div>
+          <div class="link">
+            <a href="">Events</a>
+          </div>
+          <div class="link">
+            <a href="">Membership</a>
+          </div>
+          <div class="link">
+            <a href="">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-line">
+        <div>
+          © Umbraco Foundation - 2020 - All Rights Reserved
+        </div>
+        <ul class="text-flap">
+          <li>
+            <a href="">Web & Cookies</a>
+          </li>
+          <li>
+            <a href=""> Disclaimer</a>
+          </li>
+          <li>
+            <a href="">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<script>
+  var elem = document.querySelector('.main-carousel');
+  var flkty = new Flickity(elem, {
+    // options
+    cellAlign: 'left',
+    contain: true,
+    autoPlay: 3000,
+    wrapAround: false
+  });
+</script>

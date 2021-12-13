@@ -1,0 +1,38 @@
+.content-up{
+  width: 100%;
+  @media screen and (min-width: $Mobile-up) {
+    padding-top: 200px;
+  }
+  @media screen and (max-width: $Mobile-down) { 
+    padding-top: 120px;
+  }
+  .title{
+    max-width: $Container-width;
+    padding-left: 20px;
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+  }
+  .logo{
+    padding-top: 36px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .comment{
+    padding-top: 50px;
+    max-width: $Container-width;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: $Open-Sans;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 1%;
+    .text{
+      max-width: 1145px;
+    }
+  }
+}
